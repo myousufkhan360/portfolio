@@ -1,0 +1,70 @@
+@font-face {
+    font-family: lora;
+    src: url(./font/lora-Regular.ttf);
+}
+
+body {
+    background-color: wheat;
+    font-family: lora;
+}
+.head {
+    padding: 20px 20px 20px 20px;
+    text-align: center;   
+}
+
+.menu {
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    line-height: 54px;
+    margin: 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navigation {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation-item {
+    display: inline-block;
+}
+
+.navigation-link {
+    color: #333;
+    text-decoration: none !important;
+}
+
+.blockline {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.main-column {
+    clear: both;
+    overflow: hidden;
+}
+
+.clearer {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.data-head {
+    padding: 30px 30px 30px 0px;
+    margin: 0px;
+}
+
+.data-body {
+    font-style: oblique;
+    font-size: 16px;
+    color: #333;
+}
+
+
